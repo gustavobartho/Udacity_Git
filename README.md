@@ -40,6 +40,8 @@
 
 * git checkout HEAD -- <arquivo> - Desfaz alterações que ja foram adicionados em um determinado arquivo
 
+* git rever <commit> - Irá criar um novo commit que desfaz as alterações do commit especificado (Útil para desfazer um commit antigo)
+
 #### Estados dos arquivos
 
 * untracked - Não monitorado (quando o arquivo é criado)
