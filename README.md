@@ -42,6 +42,10 @@
 
 * git rever <commit> - Irá criar um novo commit que desfaz as alterações do commit especificado (Útil para desfazer um commit antigo)
 
+* git reset <commit> - Reseta o repositório para um determinado commit
+
+* git reset --hard <commit> - Resetar e remover todas as alterações (Não usar seja estiver publicado)
+
 #### Estados dos arquivos
 
 * untracked - Não monitorado (quando o arquivo é criado)
