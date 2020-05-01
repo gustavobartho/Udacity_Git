@@ -14,4 +14,8 @@ git config --global - Realiza as modificações na configuração para todos os 
 
 git status - Mostra o status do repositório, caso o repositirio tenha sido alterado ou se ha commits a serem realizados
 
-git log - Mostra o histórico de commits que foram feitos 
+git log - Mostra o histórico de commits que foram feitos
+
+git remote add origin <endereço do git remto> - adiciona o repositorio para um Git remoto (ex: GitHub, GitLab)
+
+git push -u origin master - Envia os commits feitos no repositorio atual para o remote no branch master (branch principal do repositorio remoto) 
