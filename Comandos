@@ -11,3 +11,7 @@ git commit -m "Mensagem" - Comitta as mudanças adicionadas (Comittar é gerar a
 git config - Modifica ou define as configurações do diretório atual (Ex: conta relacionada ao diretório)
 
 git config --global - Realiza as modificações na configuração para todos os repositórios
+
+git status - Mostra o status do repositório, caso o repositirio tenha sido alterado ou se ha commits a serem realizados
+
+git log - Mostra o histórico de commits que foram feitos 
