@@ -38,6 +38,8 @@
 
 * git checkout -- <arquivo> - Desfaz as mudanças que não foram adicionadas em um arquivo (git checout -- * - desfaz as mudanças que não foram adicionadas em todos os arquivos)
 
+* git checkout HEAD -- <arquivo> - Desfaz alterações que ja foram comitadas em um determinado arquivo
+
 #### Estados dos arquivos
 
 * untracked - Não monitorado (quando o arquivo é criado)
