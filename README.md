@@ -30,6 +30,10 @@
 
 * git diff - Mostra a diferença entre commits e braches (para mostrar as alterações des de o ultimo commit deve-se adicionar HEAD~1)
 
+* git clone - Baixa um repositorio remoto(ja vem configurado)
+
+* git pull - Baixa as alterações do repositorio remoto (Mantém o repositorio sincronizado com os ultimos commits de uma branch)
+
 #### Estados dos arquivos
 
 * untracked - Não monitorado (quando o arquivo é criado)
