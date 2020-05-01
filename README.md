@@ -34,6 +34,8 @@
 
 * git pull - Baixa as alterações do repositorio remoto (Mantém o repositorio sincronizado com os ultimos commits de uma branch)
 
+* git checkout <commit> <file> - Permite ver como um arquivo ou todo o repositorio estava em um determinado commit
+
 #### Estados dos arquivos
 
 * untracked - Não monitorado (quando o arquivo é criado)
