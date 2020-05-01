@@ -34,7 +34,9 @@
 
 * git pull - Baixa as alterações do repositorio remoto (Mantém o repositorio sincronizado com os ultimos commits de uma branch)
 
-* git checkout <commit> <file> - Permite ver como um arquivo ou todo o repositorio estava em um determinado commit
+* git checkout <commit> <file> - Permite ver como um arquivo ou todo o repositorio estava em um determinado commit (Para retornar para o estado atual do repositorio basta dar git checkout master)
+
+* git checkout -- <arquivo> - Desfaz as mudanças que não foram adicionadas em um arquivo (git checout -- * - desfaz as mudanças que não foram adicionadas em todos os arquivos)
 
 #### Estados dos arquivos
 
