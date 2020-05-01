@@ -1,4 +1,6 @@
-### Comandos do git
+## Curso Git 
+
+#### Comandos do git
 
 * git help - Mostra os comandos do git e uma breve descrição do seu funcionamento
 
@@ -23,3 +25,18 @@
 * git push -u origin master - Envia os commits feitos no repositorio atual para o remote no branch master (branch principal do repositorio remoto) - Esse comando so precisa ser usado na primeira vez que for feito um push
 
 * git push - comando usado para enviar os commits para o repositorio remoto assiciado a um repositorio local (Esse comando é usado a partir da sugunda vez que um push for feito) 
+
+* git rm <arquivo> - Remove um arquivo do repositorio
+
+* git diff - Mostra a diferença entre commits e braches (para mostrar as alterações des de o ultimo commit deve-se adicionar HEAD~1)
+
+#### Estados dos arquivos
+
+* untracked - Não monitorado (quando o arquivo é criado)
+
+* modified - Modificado (quando o arquivo é modificado em relação ao ultimo commit)
+
+* staged - Preparado (quando o aquivo é adicionado e está pronto para ser commitado)
+
+* commited - Consolidado (Quando o arquivo tem o seu estado registrado no repoistório)
+
