@@ -54,6 +54,9 @@
 
 * git checkout [branch] - Muda para a branch (O repositorio passa a ter os commits que a branch possuir e novos commits serão adicionados a ela)
 
+* git merge [branch] - Aplica os commits de uma branch na branch atual (Encontra um commit comum (base) entre as branches e aplica todos os commits que a branch atual não possui, caso existam commits na branch atual que não estejam na outra é criado um commit de merge)
+
+
 #### Estados dos arquivos
 
 * untracked - Não monitorado (quando o arquivo é criado)
