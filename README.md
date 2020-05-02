@@ -52,6 +52,8 @@
 
 * git branch -d <branch> - Exclui uma branch
 
+* git checkout <branch> - Muda para a branch (O repositorio passa a ter os commits que a branch possuir e novos commits serão adicionados a ela)
+
 #### Estados dos arquivos
 
 * untracked - Não monitorado (quando o arquivo é criado)
