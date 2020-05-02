@@ -46,6 +46,12 @@
 
 * git reset --hard <commit> - Resetar e remover todas as alterações (Não usar seja estiver publicado)
 
+* git branch  - mostra as branches do repositório
+
+* git branch <nova_branch> - cria uma nova branch
+
+* git branch -d <branch> - Exclui uma branch
+
 #### Estados dos arquivos
 
 * untracked - Não monitorado (quando o arquivo é criado)
@@ -65,3 +71,17 @@
 * O Git identifica os conflitos e fica aguardando a solução deles
 
 * Ao resolver os conflitos deve ser feito um commit
+
+#### Branching
+
+* São ramificações do repositório - desenvolvimentos diferentes de um mesmo código
+
+* É uma lista de commits
+
+* Muito util para trabalhos colabrativos
+
+* Branches de desenvolvimento facilitam o controle
+
+* A Branch master é a padrão
+
+
