@@ -58,6 +58,8 @@
 
 * git rebase [branch] - Semelhante ao merge porém é diferente na ordem de aplicar os commits. No Rebase, os commits na frente da base são removidos temporariamente, os commits de outra branch são aplicados na branch e por fim seus commits são aplicados um  a um (Podem acontecer conflitos que serão resolvidos para cada commit) 
 
+* git fetch - Baixa as atualizações do remote oprém não aplica elas no repositorio. Permite fazer o rebase de uma branch em vez de fazer o merge (Pull = Fetch + Merge). Fetch e Rebase é melhor para manter o histórico de desenvolvimento
+
 #### Estados dos arquivos
 
 * untracked - Não monitorado (quando o arquivo é criado)
