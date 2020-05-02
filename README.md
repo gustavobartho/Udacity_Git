@@ -56,6 +56,7 @@
 
 * git merge [branch] - Aplica os commits de uma branch na branch atual (Encontra um commit comum (base) entre as branches e aplica todos os commits que a branch atual não possui, caso existam commits na branch atual que não estejam na outra é criado um commit de merge)
 
+* git rebase [branch] - Semelhante ao merge porém é diferente na ordem de aplicar os commits. No Rebase, os commits na frente da base são removidos temporariamente, os commits de outra branch são aplicados na branch e por fim seus commits são aplicados um  a um (Podem acontecer conflitos que serão resolvidos para cada commit) 
 
 #### Estados dos arquivos
 
