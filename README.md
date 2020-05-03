@@ -60,6 +60,8 @@
 
 * git fetch - Baixa as atualizações do remote oprém não aplica elas no repositorio. Permite fazer o rebase de uma branch em vez de fazer o merge (Pull = Fetch + Merge). Fetch e Rebase é melhor para manter o histórico de desenvolvimento
 
+* git tag [nome da tag] - Útil para definir versões estáveis do projeto. Semelhantes a Branch porém não recebe mais commits. Guarda um estdo do repositório em um ponto.
+
 #### Estados dos arquivos
 
 * untracked - Não monitorado (quando o arquivo é criado)
